@@ -24,7 +24,7 @@ local Players = game:GetService("Players") -- DO NOT CHANGE or else the script w
 game.Players.PlayerAdded:Connect(function(player)
 	for _, bannedUsername in pairs(bannedUsernames) do
 		if player.Name == bannedUsername then
-			player:Kick("Leaker Alert™ KNOWN MODEL LEAKER DETECTED! You are not allowed to play this game. If you think this is a mistake, you may find the nearest brick wall.") -- You may set a custom message within the quotations
+			player:Kick("Leaker Alertâ„¢ KNOWN MODEL LEAKER DETECTED! You are not allowed to play this game. If you think this is a mistake, you may find the nearest brick wall.") -- You may set a custom message within the quotations
 			break
 		end
 	end
